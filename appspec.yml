@@ -1,5 +1,8 @@
 version: 0.2
 os: linux
+artifacts:
+  files:
+    - '**/*'
 files:
   - source: /index.html
     destination: /var/www/html/
